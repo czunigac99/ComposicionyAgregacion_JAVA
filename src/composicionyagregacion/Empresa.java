@@ -6,6 +6,7 @@
  */
 package composicionyagregacion;
 import java.util.LinkedList;
+import 
 /**
  *
  * @author cris
@@ -30,6 +31,12 @@ this.NombreEmpresa=NombreEmpresa;
 } 
 public String get_NombreEmpresa(){
 return NombreEmpresa;
-}    
-    
+}   
+public LinkedList<Empleado> getLstEmpleado() {
+	return lstEmpleados;
+}  
+
+void Contratar(){
+
+}
 }
