@@ -49,6 +49,11 @@ public class main {
    }
     //Haciendo Composicion
     LinkedList<Empleado> imprimir = miEmpresa.getLstEmpleado();
+    
+   for(int i=0;i<imprimir.size();i++){
+   System.out.println("nombre " + objEmpleado.get_Nombre() );
+   System.out.println("Sueldo " + objEmpleado.get_Float() );
+    }
    }
     
 }
