@@ -13,7 +13,8 @@ import java.util.LinkedList;
 public class Empresa {
  
  String NombreEmpresa;
- Empleado _empleado;
+ private LinkedList<Empleado> lstEmpleados=new LinkedList<>();
+ 
 
  public Empresa(){
  super();
