@@ -5,17 +5,33 @@
  */
 package composicionyagregacion;
 
+import java.util.Scanner;
+
 /**
  *
  * @author cris
  */
 public class main {
 
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Scanner sc = new Scanner(System.in);
+        
+    String Nombre;
+    float Sueldo;
+    
+    for(int i=1; i<=3;i++){
+    System.out.println("Ingrese el nombre");
+    Nombre= sc.nextLine();
+    System.out.println("Ingrese el Sueldo");
+    Sueldo= sc.nextFloat();
+    
+   }
+    
+    
     }
     
 }
