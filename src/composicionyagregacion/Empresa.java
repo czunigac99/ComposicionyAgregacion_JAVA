@@ -23,6 +23,10 @@ public class Empresa {
  public Empresa(LinkedList<Empleado> lstEmpleados){
  super();
 this.lstEmpleados=lstEmpleados;
+
+
+
+
  }
 
 public Empresa(String NombreEmpresa){
