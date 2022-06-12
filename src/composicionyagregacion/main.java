@@ -9,7 +9,7 @@ package composicionyagregacion;
  *
  * @author cris
  */
-public class ComposicionyAgregacion {
+public class main {
 
     /**
      * @param args the command line arguments
