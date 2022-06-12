@@ -11,4 +11,21 @@ package composicionyagregacion;
  */
 public class Cliente {
     
+
+ String NombreCliente;
+ 
+public Cliente(){
+super();
+}    
+
+public Cliente(String NombreCliente){
+this.NombreCliente=NombreCliente;
+}
+public void Set_Cliente(String NombreCliente){
+this.NombreCliente=NombreCliente;
+}    
+public String get_Cliente(){
+return NombreCliente;
+}
+
 }

@@ -12,10 +12,12 @@ import java.util.LinkedList;
  * @author cris
  */
 public class Empresa {
+
  
  private String NombreEmpresa;
  int e = -1;
  private LinkedList<Empleado> lstEmpleados=new LinkedList<>();
+ private LinkedList<Cliente> lstCliente=new LinkedList<>();
  
 
  public Empresa(){
@@ -41,4 +43,11 @@ void Contratar(Empleado objEmpleado){
 this.e++;
 lstEmpleados.add(objEmpleado);
 }
-}
+void agregarCliente(Cliente nuevoCliente){
+this.e++;
+lstCliente.add(nuevoCliente);
+        }    
+        
+}  
+
+
