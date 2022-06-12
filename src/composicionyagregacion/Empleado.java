@@ -24,9 +24,17 @@ super();
 public Empleado(String Nombre, float Sueldo){
 this.Nombre=Nombre;
 this.Sueldo=Sueldo;
-
-
-
 }
-
+public void set_Nombre(String Nombre){
+this.Nombre=Nombre;
+}
+public String get_Nombre(){
+return Nombre;
+} 
+public void set_Sueldo(float Sueldo){
+this.Sueldo=Sueldo;
+}
+public float get_Float(){
+return Sueldo;
+}   
 }

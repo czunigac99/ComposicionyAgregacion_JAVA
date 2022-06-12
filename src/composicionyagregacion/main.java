@@ -29,6 +29,10 @@ public class main {
     System.out.println("Ingrese el Sueldo");
     Sueldo= sc.nextFloat();
     
+    //Instancias empleado
+    Empleado objEmpleado = new Empleado();
+    objEmpleado.setNombre(Nombre);
+    
    }
     
     
