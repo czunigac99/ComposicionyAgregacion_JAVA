@@ -25,8 +25,18 @@ public Empleado(String Nombre, float Sueldo){
 this.Nombre=Nombre;
 this.Sueldo=Sueldo;
 
-
-
 }
 
+public void set_Nombre(String Nombre){
+this.Nombre=Nombre;
+}
+public void set_Sueldo(float Sueldo){
+this.Sueldo=Sueldo;
+}
+public String get_Nombre(){
+return Nombre;
+}
+public float get_Sueldo(){
+return Sueldo;
+}
 }
