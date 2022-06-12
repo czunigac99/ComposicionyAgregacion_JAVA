@@ -68,6 +68,7 @@ public class main {
    System.out.println("Sueldo " + objEmpleado.get_Sueldo());
 
     }
+   Cliente objCliente = new Cliente();
    }
     
 }
