@@ -69,6 +69,15 @@ public class main {
 
     }
    Cliente objCliente = new Cliente();
+   objCliente.Set_Cliente("Cliente1");
+   miEmpresa.agregarCliente(objCliente);
+   
+   Cliente objCliente2 = new Cliente();
+   objCliente.Set_Cliente("Cliente2");
+   miEmpresa.agregarCliente(objCliente);
+   
+   System.out.println(miEmpresa.getLstCliente());
+   
    }
     
 }
