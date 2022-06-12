@@ -20,9 +20,9 @@ public class Empresa {
  private LinkedList<Cliente> lstCliente=new LinkedList<>();
  
 
- public Empresa(){
+ public Empresa(LinkedList<Empleado> lstEmpleados){
  super();
-
+this.lstEmpleados=lstEmpleados;
  }
 
 public Empresa(String NombreEmpresa){
@@ -35,14 +35,23 @@ this.NombreEmpresa=NombreEmpresa;
 public String get_NombreEmpresa(){
 return NombreEmpresa;
 }   
-public LinkedList<Empleado> getLstEmpleado() {
+/*public LinkedList<Empleado> getLstEmpleado() {
 	return lstEmpleados;
-}  
+}  */
+
+public LinkedList<Empleado> listaEmpleado(){
+return lstEmpleados;
+}
+
+public LinkedList<Cliente> getLstCliente() {
+	return lstCliente;
+} 
 
 void Contratar(Empleado objEmpleado){
 this.e++;
 lstEmpleados.add(objEmpleado);
 }
+
 void agregarCliente(Cliente nuevoCliente){
 this.e++;
 lstCliente.add(nuevoCliente);
