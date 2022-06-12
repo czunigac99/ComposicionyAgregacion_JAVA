@@ -5,6 +5,7 @@
  */
 package composicionyagregacion;
 
+import java.util.LinkedList;
 import java.util.Scanner;
 
 /**
@@ -19,8 +20,10 @@ public class main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       Scanner sc = new Scanner(System.in);
-    Empresa miEmpresa = new Empresa();  
+    Scanner sc = new Scanner(System.in);
+    LinkedList<Empleado> lstEmpleados=new LinkedList<>();
+    Empresa miEmpresa = new Empresa(lstEmpleados);  
+    Empleado objEmpleado = new Empleado();
     String Nombre;
     float Sueldo;
     
@@ -34,7 +37,7 @@ public class main {
     Sueldo= sc.nextFloat();
     
     //Instancias empleado
-    Empleado objEmpleado = new Empleado();
+   
     objEmpleado.set_Nombre(Nombre);
     objEmpleado.set_Sueldo(Sueldo);
     
@@ -46,6 +49,6 @@ public class main {
    }
     
     
-    }
+   }
     
 }

@@ -18,8 +18,8 @@ public class Empresa {
  private LinkedList<Empleado> lstEmpleados=new LinkedList<>();
  
 
- public Empresa(){
- super();
+ public Empresa(LinkedList <Empleado> lstEmpleados){
+ 
 
  }
 
