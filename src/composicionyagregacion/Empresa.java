@@ -12,5 +12,9 @@ package composicionyagregacion;
 public class Empresa {
     
     
-    
+
+void Empresa agregarCliente(Cliente nuevoCliente){
+this.e++
+        
+}  
 }
