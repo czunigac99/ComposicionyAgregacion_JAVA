@@ -13,7 +13,8 @@ import java.util.LinkedList;
  */
 public class Empresa {
  
- String NombreEmpresa;
+ private String NombreEmpresa;
+ int e = -1;
  private LinkedList<Empleado> lstEmpleados=new LinkedList<>();
  
 
@@ -36,7 +37,8 @@ public LinkedList<Empleado> getLstEmpleado() {
 	return lstEmpleados;
 }  
 
-void Contratar(){
-
+void Contratar(Empleado objEmpleado){
+this.e++;
+lstEmpleados.add(objEmpleado);
 }
 }
