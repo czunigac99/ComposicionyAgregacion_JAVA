@@ -6,17 +6,14 @@
  */
 package composicionyagregacion;
 import java.util.LinkedList;
-
 /**
  *
  * @author cris
  */
 public class Empresa {
  
- private String NombreEmpresa;
- int e = -1;
- private LinkedList<Empleado> lstEmpleados=new LinkedList<>();
- 
+ String NombreEmpresa;
+ Empleado _empleado;
 
  public Empresa(){
  super();
@@ -32,13 +29,6 @@ this.NombreEmpresa=NombreEmpresa;
 } 
 public String get_NombreEmpresa(){
 return NombreEmpresa;
-}   
-public LinkedList<Empleado> getLstEmpleado() {
-	return lstEmpleados;
-}  
-
-void Contratar(Empleado objEmpleado){
-this.e++;
-lstEmpleados.add(objEmpleado);
-}
+}    
+    
 }

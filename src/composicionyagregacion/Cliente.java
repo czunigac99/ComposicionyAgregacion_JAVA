@@ -9,13 +9,6 @@ package composicionyagregacion;
  *
  * @author cris
  */
-public class ComposicionyAgregacion {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public class Cliente {
     
 }
