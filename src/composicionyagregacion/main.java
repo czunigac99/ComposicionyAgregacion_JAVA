@@ -47,8 +47,8 @@ public class main {
     System.gc();
     
    }
-    
-    
+    //Haciendo Composicion
+    LinkedList<Empleado> imprimir = miEmpresa.getLstEmpleado();
    }
     
 }
