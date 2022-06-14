@@ -61,12 +61,11 @@ public class main {
   
 
     //Haciendo Composicion
-    LinkedList<Empleado> imprimir = miEmpresa.listaEmpleado();
+   LinkedList<Empleado> imprimir = miEmpresa.listaEmpleado();
     
    for(int i=0;i<imprimir.size();i++){
-   System.out.println("nombre " + objEmpleado.get_Nombre() );
-   System.out.println("Sueldo " + objEmpleado.get_Sueldo());
-
+   System.out.println(imprimir.get(i).get_Nombre()+""+imprimir.get(i).get_Sueldo() );
+   
     }
    Cliente objCliente = new Cliente();
    objCliente.Set_Cliente("Cliente1");
@@ -76,7 +75,13 @@ public class main {
    objCliente.Set_Cliente("Cliente2");
    miEmpresa.agregarCliente(objCliente);
    
-   System.out.println(miEmpresa.getLstCliente());
+   for(int i=0;i<miEmpresa.getLstCliente().size();i++){
+   System.out.println(miEmpresa.getLstCliente().get(i).get_Cliente());
+   
+
+    }
+   
+
    
    }
     
